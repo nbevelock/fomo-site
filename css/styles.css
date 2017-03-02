@@ -1,0 +1,86 @@
+/*Global Styles*/
+body {font-family: 'Open Sans', sans-serif;}
+h2 {font-size: 3em; font-weight: 700; margin: 0;}
+p {font-size: 2em;}
+hr {margin: 0 25%; border-color: #fff;}
+
+/*### Top Panel Styles ###*/
+/*Parallax Styles*/
+.ParallaxVideo { 
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo .bg { 
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -999;
+}
+.ParallaxVideo h1 {
+    color: #fff;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*.ParallaxVideo .demovid {
+    max-width: 40%;
+    margin: 0 30% 0 30%;
+}*/
+.ParallaxVideo .appstore {
+    max-width: 270px;
+}
+
+
+.ParallaxContent {
+    background: none repeat scroll 0 0;
+    padding: 50px 0;
+    color: #FFF;	
+    text-align: center;
+    min-height: 300px;
+} 
+.ParallaxContent h2 {
+    color: #FFF;	
+}
+
+#logo {
+    max-height: 500px;
+    padding: 0 30% 0 30%;
+    margin-bottom: 50px;
+}
+/*End Top Panel*/
+
+/*Center Vertically*/
+.center-vert {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+
+/*Schools*/
+.school-icon {
+    max-width: 100%;
+}
+
+/*Counter*/
+.counter-icon {
+    max-width: 150px;
+}
+
+
+/*Form*/
+#bar-owner {
+    margin: 50px auto;
+}
+
+@media (max-width: 767px) {
+    #logo {padding: 0 20%;}
+    p {font-size: 1.5em;}
+    .ParallaxVideo .demovid {margin: 0 20%;}
+    .ParallaxVideo .demovid {width: 60%; height: 33.75%;}
+    .ParallaxVideo .appstore {max-width: 140px;}
+}
